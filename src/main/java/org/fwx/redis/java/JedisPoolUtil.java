@@ -30,7 +30,7 @@ public class JedisPoolUtil {
 
 	public static void release(JedisPool jedisPool, Jedis jedis) {
 		if (null != jedis) {
-			jedisPool.returnResource(jedis);
+			//jedisPool.returnResource(jedis);
 		}
 	}
 
